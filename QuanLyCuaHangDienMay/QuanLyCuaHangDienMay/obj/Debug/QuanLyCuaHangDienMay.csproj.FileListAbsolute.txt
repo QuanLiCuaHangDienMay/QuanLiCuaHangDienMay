@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe
+C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.pdb
+C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmMain.resources
+C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Properties.Resources.resources
+C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe.licenses
+C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe
+C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.pdb
+C:\Users\HP\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe
+C:\Users\HP\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.pdb
