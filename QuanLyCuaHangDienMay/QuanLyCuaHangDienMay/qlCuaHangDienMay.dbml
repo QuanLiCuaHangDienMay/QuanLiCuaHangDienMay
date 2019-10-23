@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QB_QL_CUA_HANG_DIEN_MAY" Class="qlCuaHangDienMayDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-S7AU503Q\SQLEXPRESS;Initial Catalog=QB_QL_CUA_HANG_DIEN_MAY;User ID=sa" SettingsObjectName="QuanLyCuaHangDienMay.Properties.Settings" SettingsPropertyName="QB_QL_CUA_HANG_DIEN_MAYConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.MatHang" Member="MatHangs">
+    <Type Name="MatHang">
+      <Column Name="MaHang" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenMatHang" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MaLoaiMatHang" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="DVT" Type="System.String" DbType="NVarChar(11)" CanBeNull="true" />
+      <Column Name="GiaBan" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="GiaNhap" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="MaNhaCC" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="BaoHanh" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="TinhTrangHang" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="MatHang_ChiTietKho" Member="ChiTietKhos" ThisKey="MaHang" OtherKey="MaHang" Type="ChiTietKho" />
+      <Association Name="NhaCungCap_MatHang" Member="NhaCungCap" ThisKey="MaNhaCC" OtherKey="MaNhaCC" Type="NhaCungCap" IsForeignKey="true" />
+      <Association Name="LoaiMatHang_MatHang" Member="LoaiMatHang" ThisKey="MaLoaiMatHang" OtherKey="MaLoaiMatHang" Type="LoaiMatHang" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NhaCungCap" Member="NhaCungCaps">
+    <Type Name="NhaCungCap">
+      <Column Name="MaNhaCC" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenNhaCC" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="DiaChiNCC" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="DienThoaiNCC" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="EmailNCC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="websiteNCC" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="NhaCungCap_MatHang" Member="MatHangs" ThisKey="MaNhaCC" OtherKey="MaNhaCC" Type="MatHang" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoaiMatHang" Member="LoaiMatHangs">
+    <Type Name="LoaiMatHang">
+      <Column Name="MaLoaiMatHang" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenLoaiMatHang" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="LoaiMatHang_MatHang" Member="MatHangs" ThisKey="MaLoaiMatHang" OtherKey="MaLoaiMatHang" Type="MatHang" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Kho" Member="Khos">
+    <Type Name="Kho">
+      <Column Name="MaKho" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenKho" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Kho_ChiTietKho" Member="ChiTietKhos" ThisKey="MaKho" OtherKey="MaKho" Type="ChiTietKho" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ChiTietKho" Member="ChiTietKhos">
+    <Type Name="ChiTietKho">
+      <Column Name="MaKho" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaHang" Type="System.String" DbType="VarChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Kho_ChiTietKho" Member="Kho" ThisKey="MaKho" OtherKey="MaKho" Type="Kho" IsForeignKey="true" />
+      <Association Name="MatHang_ChiTietKho" Member="MatHang" ThisKey="MaHang" OtherKey="MaHang" Type="MatHang" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

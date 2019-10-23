@@ -1,11 +1,376 @@
-C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe
-C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.pdb
-C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csprojResolveAssemblyReference.cache
-C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmMain.resources
-C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Properties.Resources.resources
-C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csproj.GenerateResource.Cache
-C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe.licenses
-C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe
-C:\Users\Admin\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.pdb
-C:\Users\HP\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe
-C:\Users\HP\Desktop\DemoQLCHDM\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.pdb
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe.config
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.pdb
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.pdb
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Form1.resources
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FormQLKhachHang.resources
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmDoiMatKhau.resources
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmKetNoiCSDL.resources
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmMain.resources
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.FrmDangNhap.resources
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Properties.Resources.resources
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.PhieuNhap.resources
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe.licenses
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe.config
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.pdb
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmDoiMatKhau.resources
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmKetNoiCSDL.resources
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmMain.resources
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.FrmDangNhap.resources
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.ToolbarForm1.resources
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Properties.Resources.resources
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csproj.GenerateResource.Cache
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe.licenses
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.pdb
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang_ThemMatHang.resources
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang_SuaMatHang.resources
+E:\test\n\QuanLyCuaHangDienMay (1)\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang.resources
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe.config
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.pdb
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.pdb
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csprojResolveAssemblyReference.cache
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang.resources
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang_SuaMatHang.resources
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang_ThemMatHang.resources
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmDoiMatKhau.resources
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmKetNoiCSDL.resources
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmMain.resources
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.FrmDangNhap.resources
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.ToolbarForm1.resources
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Properties.Resources.resources
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csproj.GenerateResource.Cache
+E:\test\n\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe.licenses
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe.config
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.pdb
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.pdb
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang.resources
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang_SuaMatHang.resources
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang_ThemMatHang.resources
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmDoiMatKhau.resources
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_HoaDon.resources
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmKetNoiCSDL.resources
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmMain.resources
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.FrmDangNhap.resources
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Properties.Resources.resources
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csproj.GenerateResource.Cache
+C:\Users\ASUS\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe.licenses
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe.config
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.pdb
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.pdb
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frmDangNhap.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang_SuaMatHang.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang_ThemMatHang.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmDoiMatKhau.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_HoaDon.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmKetNoiCSDL.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmMain.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Properties.Resources.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe.licenses
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmKhachHang_ThemMoi.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmKhachHang_Sua.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmNhomKhachHang.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmKhachHang.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmNhanVien_ThemMoi.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmNhanVien_Sua.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmNhanVien.resources
+C:\Users\Admin\Desktop\New folder\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmNhomNhanVien.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe.config
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.exe
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\QuanLyCuaHangDienMay.pdb
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Charts.Designer.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.CodeConverter.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.CodeParser.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Data.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.DataAccess.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Office.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.TreeMap.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Utils.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraBars.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraCharts.v17.1.Extensions.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraCharts.v17.1.UI.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraCharts.v17.1.Web.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraGauges.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraGauges.v17.1.Presets.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraScheduler.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraScheduler.v17.1.Extensions.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraTreeMap.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Charts.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Core.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Mvvm.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Grid.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Ribbon.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Docking.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.PropertyGrid.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Grid.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpo.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Web.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Web.Resources.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraScheduler.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraSpellChecker.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.SpellChecker.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Printing.v17.1.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Layout.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.DocumentViewer.v17.1.Core.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Charts.Designer.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Data.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.DataAccess.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Office.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.TreeMap.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Utils.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraBars.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraCharts.v17.1.UI.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraCharts.v17.1.Web.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraGauges.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraGauges.v17.1.Presets.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraScheduler.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraScheduler.v17.1.Extensions.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraTreeMap.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Charts.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Core.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Mvvm.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Grid.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Ribbon.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Docking.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.PropertyGrid.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Grid.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpo.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Web.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraScheduler.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.XtraSpellChecker.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.SpellChecker.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Printing.v17.1.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.Layout.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\DevExpress.Xpf.DocumentViewer.v17.1.Core.xml
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Charts.Designer.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Charts.Designer.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Charts.Designer.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Charts.Designer.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraScheduler.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraScheduler.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraScheduler.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraScheduler.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraScheduler.v17.1.Extensions.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraScheduler.v17.1.Extensions.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraScheduler.v17.1.Extensions.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraScheduler.v17.1.Extensions.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Xpf.Charts.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Xpf.Charts.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Xpf.Charts.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Xpf.Charts.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Xpf.Core.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Xpf.Core.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Xpf.Core.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Xpf.Core.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Xpf.Docking.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Xpf.Docking.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Xpf.Docking.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Xpf.Docking.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Web.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Web.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Web.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Web.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.XtraSpellChecker.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.XtraSpellChecker.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.XtraSpellChecker.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.XtraSpellChecker.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Xpf.Printing.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Xpf.Printing.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Xpf.Printing.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Xpf.Printing.v17.1.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmNhanVien.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmNhomNhanVien.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmNhanVien_Sua.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmNhanVien_ThemMoi.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmKhachHang_Sua.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmKhachHang.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmNhomKhachHang.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmKhachHang_ThemMoi.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frmDangNhap.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang_SuaMatHang.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_MatHang_ThemMatHang.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmDoiMatKhau.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Views.frm_HoaDon.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmKetNoiCSDL.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.FrmMain.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.Properties.Resources.resources
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csproj.GenerateResource.cache
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csproj.CoreCompileInputs.cache
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csproj.CopyComplete
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.pdb
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.csprojAssemblyReference.cache
+E:\New folder (3)\Đề Án_Win Nâng Cao\QuanLyCuaHangDienMay\QuanLyCuaHangDienMay\obj\Debug\QuanLyCuaHangDienMay.exe.licenses

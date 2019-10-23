@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.875" name="qlCuaHangDienMay">
+  <DataContextMoniker Name="/qlCuaHangDienMayDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3a68360a-4469-47fb-b83b-173f5b1048e8" absoluteBounds="3.75, 1, 2, 2.5401025390625">
+      <DataClassMoniker Name="/qlCuaHangDienMayDataContext/MatHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38506f4d-348e-4943-b72a-1d97dfb04fc8" absoluteBounds="3.7649999999999997, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bb4c6368-27b1-43d0-9e50-09cd0dd450e3" absoluteBounds="3, 4.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/qlCuaHangDienMayDataContext/NhaCungCap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9057b85f-0773-44ce-8fa5-b07ef944be3a" absoluteBounds="3.0149999999999997, 4.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.375 : 4.5); (4.375 : 3.5401025390625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qlCuaHangDienMayDataContext/NhaCungCap/NhaCungCap_MatHang" />
+      <nodes>
+        <classShapeMoniker Id="bb4c6368-27b1-43d0-9e50-09cd0dd450e3" />
+        <classShapeMoniker Id="3a68360a-4469-47fb-b83b-173f5b1048e8" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7c60e1d8-95ae-43e9-a168-c220a2446590" absoluteBounds="1, 2.875, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/qlCuaHangDienMayDataContext/LoaiMatHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a3ce2037-4e5d-40a5-9bc6-c962a084a45b" absoluteBounds="1.0150000000000001, 3.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9d48c82e-1eb2-43de-83ab-ffd5237b6d75" absoluteBounds="3.75, 7.375, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/qlCuaHangDienMayDataContext/Kho" />
+      <nestedChildShapes>
+        <elementListCompartment Id="53f02d1e-a3ec-40fd-8ecd-50e77e0d0dc0" absoluteBounds="3.765, 7.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f2dddb47-5274-499c-b441-0bd89e0f8a39" absoluteBounds="6.5, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/qlCuaHangDienMayDataContext/ChiTietKho" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1fe1c79b-82da-41e9-8a62-083270a0b815" absoluteBounds="6.515, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3 : 3.20755126953125); (3.75 : 3.20755126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qlCuaHangDienMayDataContext/LoaiMatHang/LoaiMatHang_MatHang" />
+      <nodes>
+        <classShapeMoniker Id="7c60e1d8-95ae-43e9-a168-c220a2446590" />
+        <classShapeMoniker Id="3a68360a-4469-47fb-b83b-173f5b1048e8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 7.97199625651042); (7.5 : 7.97199625651042); (7.5 : 2.1362939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qlCuaHangDienMayDataContext/Kho/Kho_ChiTietKho" />
+      <nodes>
+        <classShapeMoniker Id="9d48c82e-1eb2-43de-83ab-ffd5237b6d75" />
+        <classShapeMoniker Id="f2dddb47-5274-499c-b441-0bd89e0f8a39" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 1.56814697265625); (6.5 : 1.56814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qlCuaHangDienMayDataContext/MatHang/MatHang_ChiTietKho" />
+      <nodes>
+        <classShapeMoniker Id="3a68360a-4469-47fb-b83b-173f5b1048e8" />
+        <classShapeMoniker Id="f2dddb47-5274-499c-b441-0bd89e0f8a39" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

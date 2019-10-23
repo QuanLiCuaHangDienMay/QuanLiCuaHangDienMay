@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyCuaHangDienMay", "QuanLyCuaHangDienMay\QuanLyCuaHangDienMay.csproj", "{557B1CCF-A255-4CC7-802A-FD6DB776C291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{E19EA3CE-F132-4FDC-86E0-83BBEB83C108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLL", "DLL\DLL.csproj", "{C02EBA27-E1DF-4AA6-A544-EFF24AF9ED22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +19,19 @@ Global
 		{557B1CCF-A255-4CC7-802A-FD6DB776C291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{557B1CCF-A255-4CC7-802A-FD6DB776C291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{557B1CCF-A255-4CC7-802A-FD6DB776C291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E19EA3CE-F132-4FDC-86E0-83BBEB83C108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19EA3CE-F132-4FDC-86E0-83BBEB83C108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19EA3CE-F132-4FDC-86E0-83BBEB83C108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19EA3CE-F132-4FDC-86E0-83BBEB83C108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C02EBA27-E1DF-4AA6-A544-EFF24AF9ED22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02EBA27-E1DF-4AA6-A544-EFF24AF9ED22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02EBA27-E1DF-4AA6-A544-EFF24AF9ED22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02EBA27-E1DF-4AA6-A544-EFF24AF9ED22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {272B1A5F-DC87-4074-9583-CA1FD53D431E}
 	EndGlobalSection
 EndGlobal
