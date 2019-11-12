@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\QuanLiCuaHangDienMay\QuanLyCuaHangDienMay\BLL\bin\Debug\BLL.dll
+C:\Users\Admin\Documents\GitHub\QuanLiCuaHangDienMay\QuanLyCuaHangDienMay\BLL\bin\Debug\BLL.pdb
+C:\Users\Admin\Documents\GitHub\QuanLiCuaHangDienMay\QuanLyCuaHangDienMay\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\QuanLiCuaHangDienMay\QuanLyCuaHangDienMay\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\QuanLiCuaHangDienMay\QuanLyCuaHangDienMay\BLL\obj\Debug\BLL.dll
+C:\Users\Admin\Documents\GitHub\QuanLiCuaHangDienMay\QuanLyCuaHangDienMay\BLL\obj\Debug\BLL.pdb

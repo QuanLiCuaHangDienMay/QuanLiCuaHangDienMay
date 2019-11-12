@@ -18,10 +18,10 @@ namespace QuanLyCuaHangDienMay
         //Kiem tra chuoi thong tin ket noi
         public int Check_Config()
         {
-            if (Properties.Settings.Default.QB_QL_CUA_HANG_DIEN_MAYConnectionString1 == string.Empty)
+            if (Properties.Settings.Default.QB_QL_CUA_HANG_DIEN_MAYConnectionString == string.Empty)
                 return 1;// Chuỗi cấu hình không tồn tại
             SqlConnection _Sqlconn = new 
-                SqlConnection(Properties.Settings.Default.QB_QL_CUA_HANG_DIEN_MAYConnectionString1);
+                SqlConnection(Properties.Settings.Default.QB_QL_CUA_HANG_DIEN_MAYConnectionString);
             try
             {
                 if (_Sqlconn.State == System.Data.ConnectionState.Closed)
@@ -38,7 +38,7 @@ namespace QuanLyCuaHangDienMay
         public int Check_User(string pUser, string pPass)
         {
             SqlDataAdapter daUser = new SqlDataAdapter("select * from TaiKhoan where TenTaiKhoan='" + pUser + "' and MatKhau ='" + pPass + "'",
-            Properties.Settings.Default.QB_QL_CUA_HANG_DIEN_MAYConnectionString1);
+            Properties.Settings.Default.QB_QL_CUA_HANG_DIEN_MAYConnectionString);
             DataTable dt = new DataTable();
             daUser.Fill(dt);
             if (dt.Rows.Count == 0)

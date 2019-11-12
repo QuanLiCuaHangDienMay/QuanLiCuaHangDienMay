@@ -24,8 +24,8 @@ namespace QuanLyCuaHangDienMay
 
             BonusSkins.Register();
             SkinManager.EnableFormSkins();
-            //Application.Run(Frm_DangNhap = new frmDangNhap());
-            Application.Run(new frm_MatHang());
+            Application.Run(Frm_DangNhap = new frmDangNhap());
+            //Application.Run(new frm_MatHang());
             
 
         }

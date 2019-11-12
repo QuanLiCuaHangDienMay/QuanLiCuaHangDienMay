@@ -25,19 +25,6 @@ namespace QuanLyCuaHangDienMay.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-S7AU503Q\\SQLEXPRESS;Initial Catalog=QB_QL_CUA_HANG_DIEN_MAY;In" +
-            "tegrated Security=True")]
-        public string QB_QL_CUA_HANG_DIEN_MAYConnectionString1 {
-            get {
-                return ((string)(this["QB_QL_CUA_HANG_DIEN_MAYConnectionString1"]));
-            }
-            set {
-                this["QB_QL_CUA_HANG_DIEN_MAYConnectionString1"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string user {
             get {
@@ -63,8 +50,8 @@ namespace QuanLyCuaHangDienMay.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-S7AU503Q\\SQLEXPRESS;Initial Catalog=QB_QL_CUA_HANG_DIEN_MAY;Us" +
-            "er ID=sa;Password=haiquan32")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=ADMIN\\SQLEXPRESS2012;Initial Catalog=QB_QL_CUA_HANG_DIEN_MAY;User ID=" +
+            "sa")]
         public string QB_QL_CUA_HANG_DIEN_MAYConnectionString {
             get {
                 return ((string)(this["QB_QL_CUA_HANG_DIEN_MAYConnectionString"]));
