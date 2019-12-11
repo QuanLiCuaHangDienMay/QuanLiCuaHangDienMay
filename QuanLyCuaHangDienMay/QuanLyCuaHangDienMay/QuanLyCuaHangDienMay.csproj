@@ -52,6 +52,12 @@
     <Reference Include="BLL">
       <HintPath>..\BLL\bin\Debug\BLL.dll</HintPath>
     </Reference>
+    <Reference Include="Controls">
+      <HintPath>..\Controls\bin\Debug\Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="DAL">
+      <HintPath>..\DAL\bin\Debug\DAL.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.BonusSkins.v17.1" />
     <Reference Include="DevExpress.Charts.Designer.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -60,6 +66,7 @@
     <Reference Include="DevExpress.Data.v17.1" />
     <Reference Include="DevExpress.DataAccess.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.DataAccess.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Printing.v17.1.Core" />
     <Reference Include="DevExpress.TreeMap.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -82,6 +89,9 @@
     <Reference Include="DevExpress.XtraScheduler.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraTreeMap.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="HopDen">
+      <HintPath>..\HopDen\bin\Debug\HopDen.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -109,34 +119,120 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CauHinh.cs" />
-    <Compile Include="FrmNguoiDung.cs">
+    <Compile Include="Class\DataContext.cs" />
+    <Compile Include="Class\NhaCungCap_DAL.cs" />
+    <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmNguoiDung.Designer.cs">
-      <DependentUpon>FrmNguoiDung.cs</DependentUpon>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmPhanQuyen.cs">
+    <Compile Include="Formaaa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPhanQuyen.Designer.cs">
-      <DependentUpon>FrmPhanQuyen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmThemNguoiDungVaoNhom.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmThemNguoiDungVaoNhom.Designer.cs">
-      <DependentUpon>FrmThemNguoiDungVaoNhom.cs</DependentUpon>
+    <Compile Include="Formaaa.Designer.cs">
+      <DependentUpon>Formaaa.cs</DependentUpon>
     </Compile>
     <Compile Include="qlCuaHangDienMay1.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>qlCuaHangDienMay.dbml</DependentUpon>
     </Compile>
+    <Compile Include="Views\FormDanhSachHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormDanhSachHoaDon.Designer.cs">
+      <DependentUpon>FormDanhSachHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormHoaDon.designer.cs">
+      <DependentUpon>FormHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormKhachHang.designer.cs">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormKhachHang_Sua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormKhachHang_Sua.designer.cs">
+      <DependentUpon>FormKhachHang_Sua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormKhachHang_ThemMoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormKhachHang_ThemMoi.designer.cs">
+      <DependentUpon>FormKhachHang_ThemMoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormKho.designer.cs">
+      <DependentUpon>FormKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormMain.designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormMatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormMatHang.designer.cs">
+      <DependentUpon>FormMatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormNhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormNhaCungCap.designer.cs">
+      <DependentUpon>FormNhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormNhaCungCap_SuaNhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormNhaCungCap_SuaNhaCungCap.designer.cs">
+      <DependentUpon>FormNhaCungCap_SuaNhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormNhomMatHang_ThemNhomMatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormNhomMatHang_ThemNhomMatHang.designer.cs">
+      <DependentUpon>FormNhomMatHang_ThemNhomMatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormPhieuNhap.designer.cs">
+      <DependentUpon>FormPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormPhieuNhap_NhapSoLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormPhieuNhap_NhapSoLuong.designer.cs">
+      <DependentUpon>FormPhieuNhap_NhapSoLuong.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\FrmNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\FrmNhanVien.Designer.cs">
+    <Compile Include="Views\FrmNhanVien.designer.cs">
       <DependentUpon>FrmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmNhanVien_Sua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmNhanVien_Sua.designer.cs">
+      <DependentUpon>FrmNhanVien_Sua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmNhanVien_ThemMoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmNhanVien_ThemMoi.designer.cs">
+      <DependentUpon>FrmNhanVien_ThemMoi.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\FrmNhomNhanVien.cs">
       <SubType>Form</SubType>
@@ -144,35 +240,11 @@
     <Compile Include="Views\FrmNhomNhanVien.Designer.cs">
       <DependentUpon>FrmNhomNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\FrmNhanVien_Sua.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\FrmNhanVien_Sua.Designer.cs">
-      <DependentUpon>FrmNhanVien_Sua.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\FrmNhanVien_ThemMoi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\FrmNhanVien_ThemMoi.Designer.cs">
-      <DependentUpon>FrmNhanVien_ThemMoi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\FormKhachHang_Sua.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\FormKhachHang_Sua.Designer.cs">
-      <DependentUpon>FormKhachHang_Sua.cs</DependentUpon>
-    </Compile>
     <Compile Include="Views\FrmNhomKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\FrmNhomKhachHang.Designer.cs">
       <DependentUpon>FrmNhomKhachHang.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\FrmKhachHang.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\FrmKhachHang.Designer.cs">
-      <DependentUpon>FrmKhachHang.cs</DependentUpon>
     </Compile>
     <Compile Include="KetNoi.cs" />
     <Compile Include="qlCuaHangDienMay.Designer.cs">
@@ -180,23 +252,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>qlCuaHangDienMay.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Views\FormKhachHang_ThemMoi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\FormKhachHang_ThemMoi.Designer.cs">
-      <DependentUpon>FormKhachHang_ThemMoi.cs</DependentUpon>
-    </Compile>
     <Compile Include="Views\DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\FormMatHang.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\FormMatHang.designer.cs">
-      <DependentUpon>FormMatHang.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\FormMatHang_SuaMatHang.cs">
       <SubType>Form</SubType>
@@ -216,23 +276,11 @@
     <Compile Include="Views\FrmDoiMatKhau.Designer.cs">
       <DependentUpon>FrmDoiMatKhau.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\HoaDon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\HoaDon.Designer.cs">
-      <DependentUpon>HoaDon.cs</DependentUpon>
-    </Compile>
     <Compile Include="Views\KetNoiCSDL.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\KetNoiCSDL.Designer.cs">
       <DependentUpon>KetNoiCSDL.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\FormMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\FormMain.Designer.cs">
-      <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -242,21 +290,72 @@
     <Compile Include="Views\FormNhomMatHang.Designer.cs">
       <DependentUpon>FormNhomMatHang.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FrmNguoiDung.resx">
-      <DependentUpon>FrmNguoiDung.cs</DependentUpon>
+    <Compile Include="Views\FormNhaCungCap_ThemNhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormNhaCungCap_ThemNhaCungCap.designer.cs">
+      <DependentUpon>FormNhaCungCap_ThemNhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormNhomMatHang_SuaNhomMatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormNhomMatHang_SuaNhomMatHang.designer.cs">
+      <DependentUpon>FormNhomMatHang_SuaNhomMatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormHoaDon_NhapSoLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormHoaDon_NhapSoLuong.designer.cs">
+      <DependentUpon>FormHoaDon_NhapSoLuong.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmPhanQuyen.resx">
-      <DependentUpon>FrmPhanQuyen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmThemNguoiDungVaoNhom.resx">
-      <DependentUpon>FrmThemNguoiDungVaoNhom.cs</DependentUpon>
+    <EmbeddedResource Include="Formaaa.resx">
+      <DependentUpon>Formaaa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Views\FormDanhSachHoaDon.resx">
+      <DependentUpon>FormDanhSachHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormHoaDon.resx">
+      <DependentUpon>FormHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormKhachHang.resx">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormKhachHang_Sua.resx">
+      <DependentUpon>FormKhachHang_Sua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormKhachHang_ThemMoi.resx">
+      <DependentUpon>FormKhachHang_ThemMoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormKho.resx">
+      <DependentUpon>FormKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormMatHang.resx">
+      <DependentUpon>FormMatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormNhaCungCap.resx">
+      <DependentUpon>FormNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormNhaCungCap_SuaNhaCungCap.resx">
+      <DependentUpon>FormNhaCungCap_SuaNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormNhomMatHang_ThemNhomMatHang.resx">
+      <DependentUpon>FormNhomMatHang_ThemNhomMatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormPhieuNhap.resx">
+      <DependentUpon>FormPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormPhieuNhap_NhapSoLuong.resx">
+      <DependentUpon>FormPhieuNhap_NhapSoLuong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\FrmNhanVien.resx">
       <DependentUpon>FrmNhanVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\FrmNhomNhanVien.resx">
-      <DependentUpon>FrmNhomNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FrmNhanVien_Sua.resx">
       <DependentUpon>FrmNhanVien_Sua.cs</DependentUpon>
@@ -264,23 +363,14 @@
     <EmbeddedResource Include="Views\FrmNhanVien_ThemMoi.resx">
       <DependentUpon>FrmNhanVien_ThemMoi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\FormKhachHang_Sua.resx">
-      <DependentUpon>FormKhachHang_Sua.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\FrmKhachHang.resx">
-      <DependentUpon>FrmKhachHang.cs</DependentUpon>
+    <EmbeddedResource Include="Views\FrmNhomNhanVien.resx">
+      <DependentUpon>FrmNhomNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FrmNhomKhachHang.resx">
       <DependentUpon>FrmNhomKhachHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\FormKhachHang_ThemMoi.resx">
-      <DependentUpon>FormKhachHang_ThemMoi.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Views\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\FormMatHang.resx">
-      <DependentUpon>FormMatHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FormMatHang_SuaMatHang.resx">
       <DependentUpon>FormMatHang_SuaMatHang.cs</DependentUpon>
@@ -291,14 +381,17 @@
     <EmbeddedResource Include="Views\FrmDoiMatKhau.resx">
       <DependentUpon>FrmDoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\HoaDon.resx">
-      <DependentUpon>HoaDon.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Views\KetNoiCSDL.resx">
       <DependentUpon>KetNoiCSDL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\FormMain.resx">
-      <DependentUpon>FormMain.cs</DependentUpon>
+    <EmbeddedResource Include="Views\FormNhaCungCap_ThemNhaCungCap.resx">
+      <DependentUpon>FormNhaCungCap_ThemNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormNhomMatHang_SuaNhomMatHang.resx">
+      <DependentUpon>FormNhomMatHang_SuaNhomMatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormHoaDon_NhapSoLuong.resx">
+      <DependentUpon>FormHoaDon_NhapSoLuong.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -344,7 +437,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controller\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -411,6 +503,15 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boproductgroup_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boproductgroup_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boproductgroup_32x322.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -12,7 +12,7 @@ namespace QuanLyCuaHangDienMay.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.9.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -20,6 +20,19 @@ namespace QuanLyCuaHangDienMay.Properties {
         public static Settings Default {
             get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-S7AU503Q\\SQLEXPRESS;Initial Catalog=QB_QL_CUA_HANG_DIEN_MAY;Us" +
+            "er ID=sa;Password=haiquan32")]
+        public string QB_QL_CUA_HANG_DIEN_MAYConnectionString1 {
+            get {
+                return ((string)(this["QB_QL_CUA_HANG_DIEN_MAYConnectionString1"]));
+            }
+            set {
+                this["QB_QL_CUA_HANG_DIEN_MAYConnectionString1"] = value;
             }
         }
         
@@ -50,8 +63,8 @@ namespace QuanLyCuaHangDienMay.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=ADMIN\\SQLEXPRESS2012;Initial Catalog=QB_QL_CUA_HANG_DIEN_MAY;User ID=" +
-            "sa")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-S7AU503Q\\SQLEXPRESS;Initial Catalog=QB_QL_CUA_HANG_DIEN_MAY;Us" +
+            "er ID=sa;Password=haiquan32")]
         public string QB_QL_CUA_HANG_DIEN_MAYConnectionString {
             get {
                 return ((string)(this["QB_QL_CUA_HANG_DIEN_MAYConnectionString"]));

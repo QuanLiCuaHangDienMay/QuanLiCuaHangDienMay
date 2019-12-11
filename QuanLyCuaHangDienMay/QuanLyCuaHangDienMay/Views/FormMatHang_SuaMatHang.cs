@@ -9,59 +9,59 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraBars;
 using QuanLyCuaHangDienMay;
+using BLL;
 
 namespace QuanLyCuaHangDienMay.Views
 {
     public partial class frm_MatHang_SuaMatHang : DevExpress.XtraEditors.XtraForm
     {
-        public frm_MatHang_SuaMatHang()
+        MatHang_BLL mathang = new MatHang_BLL();
+        LoaiMatHang_BLL lmh = new LoaiMatHang_BLL();
+        NhaCungCap_BLL ncc = new NhaCungCap_BLL();
+
+        string LH, MNCC;
+        public frm_MatHang_SuaMatHang(string mh,string th, string lh,string DVT, string gb, string gn, string mncc, string tgbh)
         {
             InitializeComponent();
+            txt_maHang.Text = mh; 
+            txt_tenHang.Text = th;
+            txt_tgBaoHanh.Text = tgbh;
+            txt_giaBan.Text = gb;
+            txt_giaNhap.Text = gn;
+            LH = lh;
+            MNCC = mncc;           
         }
 
-        //private void loadNCC()
-        //{
-        //    cb_NCC.DataSource = null;
-        //    string str = "select * from NhaCungCap";
-        //    DataTable data = KetNoi.Instance.excuteQuery(str);
-        //    cb_NCC.DataSource = data;
-        //    cb_NCC.DisplayMember = "TenNhaCC";
-        //    cb_NCC.ValueMember = "MaNhaCC";
-        //}
+        private void loadDVT()
+        {
+            cb_DVT.DataSource = null;
+            string[] dvts = { "Cái", "Chiếc", "Bộ" };
+            foreach (string dvt in dvts)
+            {
+                cb_DVT.Items.Add(dvt);
+            }
+        }
 
-        //private void loadDVT()
-        //{
-        //    cb_DVT.DataSource = null;
-        //    string[] dvts = { "Cái", "Chiếc", "Bộ" };
-        //    foreach (string dvt in dvts)
-        //    {
-        //        cb_DVT.Items.Add(dvt);
-        //    }
-        //}
-
-        //private void loadLMH()
-        //{
-        //    cb_LMH.DataSource = null;
-        //    string str = "select * from LoaiMatHang";
-        //    DataTable data = KetNoi.Instance.excuteQuery(str);
-        //    cb_LMH.DataSource = data;
-        //    cb_LMH.DisplayMember = "TenLoaiMatHang";
-        //    cb_LMH.ValueMember = "MaLoaiMatHang";          
-        //}
-
-        //void loadCB()
-        //{
-        //    loadDVT();
-        //    loadNCC();
-        //    loadLMH();
-        //    cb_DVT.SelectedIndex = 0;
-        //}
+        void loadCB()
+        {
+            loadDVT();
+            cb_DVT.SelectedIndex = 0;
+        }
 
         private void frm_MatHang_ThemMatHang_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'qLCuaHangDienMay.MatHang' table. You can move, or remove it, as needed.
-            //this.matHangTableAdapter.Fill(this.qLCuaHangDienMay.MatHang);
-            //loadCB();
+            cb_LMH.DataSource = null;
+            cb_LMH.Items.Clear();
+            cb_LMH.DataSource = lmh.GetLoaiMatHang();
+            cb_LMH.ValueMember = "MaLoaiMatHang";
+            cb_LMH.DisplayMember = "TenLoaiMatHang";
+            cb_NCC.DataSource = null;
+            cb_NCC.Items.Clear();
+            cb_NCC.DataSource = ncc.GetNhaCungCap();
+            cb_NCC.ValueMember = "MaNhaCC";
+            cb_NCC.DisplayMember = "TenNhaCC";          
+            txt_maHang.Enabled = false;
+            loadCB();
         }
 
         bool kTraNullCB()
@@ -82,19 +82,25 @@ namespace QuanLyCuaHangDienMay.Views
       
         private void btn_luu1(object sender, ItemClickEventArgs e)
         {
-            if (kTraNullCB() == false)
-            {
-                string str = "INSERT INTO MatHang VALUES ('" +
-                            txt_maHang.Text + "',N'" + txt_tenHang.Text + "',N'" + cb_LMH.SelectedValue.ToString() + "',N'" +
-                            cb_DVT.Text + "','" + txt_giaBan.Text + "','" + txt_giaNhap.Text + "','"+cb_NCC.SelectedValue.ToString()+"','"+
-                            txt_tgBaoHanh.Text+"',N'"+"Chưa nhập hàng" +"') ";//=====================================================
-                KetNoi.Instance.excuteQuery(str);
-                MessageBox.Show("Thêm thành công");
-            }
-            else
+            if (kTraNullCB())
             {
                 MessageBox.Show("Chưa nhập đủ thông tin");
+                return;
             }
+            string maHang = txt_maHang.Text;
+            var result = mathang.UpdateMatHang(txt_maHang.Text, txt_tenHang.Text, cb_LMH.SelectedValue.ToString(), cb_DVT.Text.ToString(),
+                    decimal.Parse(txt_giaBan.Text.ToString()), decimal.Parse(txt_giaNhap.Text.ToString()), cb_NCC.SelectedValue.ToString(),
+                    byte.Parse(txt_tgBaoHanh.Text.ToString()));
+            switch (result)
+            {
+                case DAL.Result.SUCCESS: MessageBox.Show("Sửa thông tin mặt hàng thành công"); break;
+                case DAL.Result.EMPTY: MessageBox.Show("Chưa nhập đủ thông tin"); break;
+                case DAL.Result.FAILED: MessageBox.Show("Sửa thông tin mặt hàng thất bại"); break;
+                case DAL.Result.PRIMARY_KEY: MessageBox.Show("Mã hàng đã tồn tại"); break;
+                case DAL.Result.UNIQUE_NAME: MessageBox.Show("Tên hàng đã tồn tại"); break;
+            }
+            if (result == DAL.Result.SUCCESS)
+                this.Close();
 
         }
 
@@ -130,6 +136,17 @@ namespace QuanLyCuaHangDienMay.Views
             }
         }
 
-        
+        private void btn_refresh_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            txt_giaNhap.Text = txt_giaBan.Text = txt_tenHang.Text = txt_tgBaoHanh.Text = "";
+        }
+
+        private void loaiMatHangBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+          //  this.loaiMatHangBindingSource.EndEdit();
+            //this.tableAdapterManager.UpdateAll(this.qlCuaHangDienMay);
+
+        }
     }
 }

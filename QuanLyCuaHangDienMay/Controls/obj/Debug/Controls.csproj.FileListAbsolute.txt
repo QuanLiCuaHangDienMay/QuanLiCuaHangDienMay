@@ -1,0 +1,26 @@
+E:\LuuDuLieuSinhVien\chq\Bai3.1\Controls\bin\Debug\Controls.dll
+E:\LuuDuLieuSinhVien\chq\Bai3.1\Controls\bin\Debug\Controls.pdb
+E:\LuuDuLieuSinhVien\chq\Bai3.1\Controls\obj\Debug\Controls.dll
+E:\LuuDuLieuSinhVien\chq\Bai3.1\Controls\obj\Debug\Controls.pdb
+E:\th win\Bai3.1\Controls\bin\Debug\Controls.dll
+E:\th win\Bai3.1\Controls\bin\Debug\Controls.pdb
+E:\th win\Bai3.1\Controls\obj\Debug\Controls.csproj.CoreCompileInputs.cache
+E:\th win\Bai3.1\Controls\obj\Debug\Controls.dll
+E:\th win\Bai3.1\Controls\obj\Debug\Controls.pdb
+E:\th win\Bai3.1\Controls\obj\Debug\Controls.csprojAssemblyReference.cache
+E:\LuuDuLieuSinhVien\chq\Bai3.1\Controls\obj\Debug\Controls.csprojResolveAssemblyReference.cache
+E:\Win\12-11\QuanLyCuaHangDienMay\Controls\bin\Debug\Controls.dll
+E:\Win\12-11\QuanLyCuaHangDienMay\Controls\bin\Debug\Controls.pdb
+E:\Win\12-11\QuanLyCuaHangDienMay\Controls\obj\Debug\Controls.csprojAssemblyReference.cache
+E:\Win\12-11\QuanLyCuaHangDienMay\Controls\obj\Debug\Controls.csproj.CoreCompileInputs.cache
+E:\Win\12-11\QuanLyCuaHangDienMay\Controls\obj\Debug\Controls.dll
+E:\Win\12-11\QuanLyCuaHangDienMay\Controls\obj\Debug\Controls.pdb
+E:\Win\19-11\QuanLyCuaHangDienMay\Controls\bin\Debug\Controls.dll
+E:\Win\19-11\QuanLyCuaHangDienMay\Controls\bin\Debug\Controls.pdb
+E:\Win\19-11\QuanLyCuaHangDienMay\Controls\obj\Debug\Controls.dll
+E:\Win\19-11\QuanLyCuaHangDienMay\Controls\obj\Debug\Controls.pdb
+E:\Win\6-12\QuanLyCuaHangDienMay\Controls\bin\Debug\Controls.dll
+E:\Win\6-12\QuanLyCuaHangDienMay\Controls\bin\Debug\Controls.pdb
+E:\Win\6-12\QuanLyCuaHangDienMay\Controls\obj\Debug\Controls.csprojResolveAssemblyReference.cache
+E:\Win\6-12\QuanLyCuaHangDienMay\Controls\obj\Debug\Controls.dll
+E:\Win\6-12\QuanLyCuaHangDienMay\Controls\obj\Debug\Controls.pdb

@@ -10,8 +10,8 @@ namespace QuanLyCuaHangDienMay
 {
     public static class Program
     {
-        public static FrmMain Frm_Main;
-        public static frmDangNhap Frm_DangNhap;
+        public static FrmMain Frm_Main = null;
+        public static frmDangNhap Frm_DangNhap = null;
 
         /// <summary>
         /// The main entry point for the application.
@@ -24,9 +24,10 @@ namespace QuanLyCuaHangDienMay
 
             BonusSkins.Register();
             SkinManager.EnableFormSkins();
-            Application.Run(Frm_DangNhap = new frmDangNhap());
-            //Application.Run(new frm_MatHang());
+            Frm_DangNhap = new frmDangNhap();
             
+            //Application.Run(new frm_danhSachHoaDon());
+            Application.Run(Frm_DangNhap);
 
         }
     }

@@ -21,7 +21,7 @@ namespace QuanLyCuaHangDienMay
         private KetNoi() { }
 
 
-        public string ConnectionSTR = "Data Source=LAPTOP-S7AU503Q\\SQLEXPRESS;Initial Catalog=QB_QL_CUA_HANG_DIEN_MAY;User ID=sa;Password=haiquan32";
+        public string ConnectionSTR = Properties.Settings.Default.QB_QL_CUA_HANG_DIEN_MAYConnectionString1;
 
 
 

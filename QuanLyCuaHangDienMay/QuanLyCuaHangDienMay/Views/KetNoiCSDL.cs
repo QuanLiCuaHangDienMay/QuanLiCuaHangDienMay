@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Configuration;
 using System.Data;
 using System.Data.Sql;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -67,18 +65,8 @@ namespace QuanLyCuaHangDienMay
         {
             string chuoi = "Data Source=" + pServerName + ";Initial Catalog=" + pDataBase + ";User ID=" + pUser + ";Password = " + pPass + "";
 
-            SqlConnection sqlHelp = new SqlConnection(chuoi);
-            Configuration configuration = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-            configuration.ConnectionStrings.ConnectionStrings["QuanLyCuaHangDienMay.Properties.Settings.QB_QL_CUA_HANG_DIEN_MAYConnectionString"].ConnectionString = chuoi;
-            configuration.ConnectionStrings.ConnectionStrings["QuanLyCuaHangDienMay.Properties.Settings.QB_QL_CUA_HANG_DIEN_MAYConnectionString"].ProviderName = "System.Data.SqlClient";
-            configuration.Save(ConfigurationSaveMode.Modified);
-
-
-
-
-
-            //Properties.Settings.Default.QB_QL_CUA_HANG_DIEN_MAYConnectionString = chuoi;
-            //Properties.Settings.Default.Save();
+            Properties.Settings.Default.QB_QL_CUA_HANG_DIEN_MAYConnectionString1 = chuoi;
+            Properties.Settings.Default.Save();
         }
 
 

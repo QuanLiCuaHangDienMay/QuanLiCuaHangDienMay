@@ -35,13 +35,13 @@ namespace QuanLyCuaHangDienMay
 
         private void barButtonItem11_ItemClick(object sender, ItemClickEventArgs e)
         {
-            //panelQuanLyNghiepVu.Controls.Clear();//clear mang hình panel
-            //FormThemMatHang frm = new FormThemMatHang();//khởi tạo form Tài Khoản
-            ////thêm vào panel chinh 1 form mới
-            //this.IsMdiContainer = true;//tùy chỉnh trong form chính thuộc tính IsMdiContainer cho ko tràng form
-            //frm.MdiParent = this;
-            //this.panelQuanLyNghiepVu.Controls.Add(frm);
-            //frm.Show();
+            panelQuanLyNghiepVu.Controls.Clear();//clear mang hình panel
+            frm_NhaCungCap frm = new frm_NhaCungCap();//khởi tạo form Tài Khoản
+            //thêm vào panel chinh 1 form mới
+            this.IsMdiContainer = true;//tùy chỉnh trong form chính thuộc tính IsMdiContainer cho ko tràng form
+            frm.MdiParent = this;
+            this.panelQuanLyNghiepVu.Controls.Add(frm);
+            frm.Show();
         }
 
         private void btnChangePass_ItemClick(object sender, ItemClickEventArgs e)
@@ -102,6 +102,71 @@ namespace QuanLyCuaHangDienMay
         {
             panelQuanLyNghiepVu.Controls.Clear();//clear mang hình panel
             frm_HoaDon frm = new frm_HoaDon();//khởi tạo form Tài Khoản
+            //thêm vào panel chinh 1 form mới
+            this.IsMdiContainer = true;//tùy chỉnh trong form chính thuộc tính IsMdiContainer cho ko tràng form
+            frm.MdiParent = this;
+            this.panelQuanLyNghiepVu.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barButtonItem7_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            panelQuanLyNghiepVu.Controls.Clear();//clear mang hình panel
+            frm_KhachHang frm= new frm_KhachHang();//khởi tạo form Tài Khoản
+            //thêm vào panel chinh 1 form mới
+            this.IsMdiContainer = true;//tùy chỉnh trong form chính thuộc tính IsMdiContainer cho ko tràng form
+            frm.MdiParent = this;
+            this.panelQuanLyNghiepVu.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barButtonItem9_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            panelQuanLyNghiepVu.Controls.Clear();//clear mang hình panel
+            FrmNhanVien frm = new FrmNhanVien();//khởi tạo form Tài Khoản
+            //thêm vào panel chinh 1 form mới
+            this.IsMdiContainer = true;//tùy chỉnh trong form chính thuộc tính IsMdiContainer cho ko tràng form
+            frm.MdiParent = this;
+            this.panelQuanLyNghiepVu.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barButtonItem4_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            panelQuanLyNghiepVu.Controls.Clear();//clear mang hình panel
+            frm_PhieuNhap frm = new frm_PhieuNhap();//khởi tạo form Tài Khoản
+            //thêm vào panel chinh 1 form mới
+            this.IsMdiContainer = true;//tùy chỉnh trong form chính thuộc tính IsMdiContainer cho ko tràng form
+            frm.MdiParent = this;
+            this.panelQuanLyNghiepVu.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barButtonItem8_ItemClick(object sender, ItemClickEventArgs e)
+        {
+           
+        }
+
+        private void barButtonItem5_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            panelQuanLyNghiepVu.Controls.Clear();//clear mang hình panel
+            frm_danhSachHoaDon frm = new frm_danhSachHoaDon();//khởi tạo form Tài Khoản
+            //thêm vào panel chinh 1 form mới
+            this.IsMdiContainer = true;//tùy chỉnh trong form chính thuộc tính IsMdiContainer cho ko tràng form
+            frm.MdiParent = this;
+            this.panelQuanLyNghiepVu.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void btnPhanQuyen_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barButtonItem8_ItemClick_1(object sender, ItemClickEventArgs e)
+        {
+            panelQuanLyNghiepVu.Controls.Clear();//clear mang hình panel
+            frm_Kho frm = new frm_Kho();//khởi tạo form Tài Khoản
             //thêm vào panel chinh 1 form mới
             this.IsMdiContainer = true;//tùy chỉnh trong form chính thuộc tính IsMdiContainer cho ko tràng form
             frm.MdiParent = this;

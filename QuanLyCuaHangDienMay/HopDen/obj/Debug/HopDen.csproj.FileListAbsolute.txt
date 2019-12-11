@@ -1,0 +1,4 @@
+E:\Win\5-12\New folder\19-11\QuanLyCuaHangDienMay\HopDen\bin\Debug\HopDen.dll
+E:\Win\5-12\New folder\19-11\QuanLyCuaHangDienMay\HopDen\bin\Debug\HopDen.pdb
+E:\Win\5-12\New folder\19-11\QuanLyCuaHangDienMay\HopDen\obj\Debug\HopDen.dll
+E:\Win\5-12\New folder\19-11\QuanLyCuaHangDienMay\HopDen\obj\Debug\HopDen.pdb
