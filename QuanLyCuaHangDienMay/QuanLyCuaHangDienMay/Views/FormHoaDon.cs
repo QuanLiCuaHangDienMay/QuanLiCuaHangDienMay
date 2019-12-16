@@ -22,6 +22,7 @@ namespace QuanLyCuaHangDienMay.Views
         HoaDon_BLL hd = new HoaDon_BLL();
         ChiTietHoaDon_BLL cthd = new ChiTietHoaDon_BLL();
         public decimal thanhTien = 0;
+        public bool KQ = false;
 
         public String myMessage;
         public static string sl;
@@ -31,30 +32,7 @@ namespace QuanLyCuaHangDienMay.Views
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gridControl2_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void gridControl2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gridControl1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panelControl1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        
 
         private void frm_HoaDon_Load(object sender, EventArgs e)
         {
@@ -74,7 +52,12 @@ namespace QuanLyCuaHangDienMay.Views
 
         private void load()
         {
+            if(KQ==true)
+                 updateSLMH();
            gc_mh.DataSource = mh.GetMatHang();
+           KQ = false;
+           txt_maDon.Text = txt_tienhang.Text = txt_giamGia.Text = txt_tongcong.Text = "";
+           dgv_cthd.Enabled = false;
         }
 
         private void btn_moDatHang_Click(object sender, EventArgs e)
@@ -106,15 +89,22 @@ namespace QuanLyCuaHangDienMay.Views
 
         private void themChiTiet(string MaHang,string tenHang,string soLuong,string donGia)
         {
-            decimal thanhtien=decimal.Parse(soLuong)*decimal.Parse(donGia);
+            try
+            {
+                decimal thanhtien = decimal.Parse(soLuong) * decimal.Parse(donGia);
 
-            DataGridViewRow row = (DataGridViewRow)dgv_cthd.Rows[0].Clone();
-            row.Cells[0].Value = MaHang;
-            row.Cells[1].Value = tenHang;
-            row.Cells[2].Value = soLuong;
-            row.Cells[3].Value = donGia;
-            row.Cells[4].Value = thanhtien;
-            dgv_cthd.Rows.Add(row); 
+                DataGridViewRow row = (DataGridViewRow)dgv_cthd.Rows[0].Clone();
+                row.Cells[0].Value = MaHang;
+                row.Cells[1].Value = tenHang;
+                row.Cells[2].Value = soLuong;
+                row.Cells[3].Value = donGia;
+                row.Cells[4].Value = thanhtien;
+                dgv_cthd.Rows.Add(row);
+            }
+            catch
+            {
+                return;
+            }
 
         }
 
@@ -158,6 +148,7 @@ namespace QuanLyCuaHangDienMay.Views
             themChiTiet(maMH, tenMH, sl, donGia);       
             thanhTien += decimal.Parse(donGia) * decimal.Parse(sl);
             txt_tienhang.Text = thanhTien.ToString();
+            btn_moHDMoi.Enabled = true;
         }
 
         private void dgv_cthd_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -208,8 +199,13 @@ namespace QuanLyCuaHangDienMay.Views
                 MessageBox.Show("Không có hàng trong giỏ");
                 return;
             }
-            luu();
-
+            bool kt =luu();
+            if (kt)
+            {
+                KQ = kt;
+                
+            }
+            load();
         }
 
         private bool kTraNullCB()
@@ -221,12 +217,12 @@ namespace QuanLyCuaHangDienMay.Views
             return false;
         }
 
-        private void luu()
+        private bool luu()
         {
             if (kTraNullCB())
             {
                 MessageBox.Show("Chưa nhập đủ thông tin");
-                return;
+                return false;
             }
             string giamgia="0";
             if (string.IsNullOrEmpty(txt_giamGia.Text) == false)
@@ -234,33 +230,26 @@ namespace QuanLyCuaHangDienMay.Views
             var result = hd.InsertHoaDon(txt_maDon.Text,cb_KH.SelectedValue.ToString(),cb_NV.SelectedValue.ToString(),dateEdit1.Text.ToString(),giamgia);
             switch (result)
             {
-                //case DAL.Result.SUCCESS: MessageBox.Show("Thêm thông tin mặt hàng thành công"); break;
                 case DAL.Result.EMPTY: MessageBox.Show("Chưa nhập đủ thông tin"); break;
-                case DAL.Result.FAILED: MessageBox.Show("Thêm thông tin mặt hàng thất bại"); break;
-                case DAL.Result.PRIMARY_KEY: MessageBox.Show("Mã hàng đã tồn tại"); break;
-                case DAL.Result.UNIQUE_NAME: MessageBox.Show("Tên hàng đã tồn tai"); break;
+                case DAL.Result.FAILED: MessageBox.Show("Thêm thông tin hóa đơn thất bại"); break;
+                case DAL.Result.PRIMARY_KEY: MessageBox.Show("Mã đơn đã tồn tại"); break;
             }
             if (result == DAL.Result.SUCCESS)
             {
                 for (int i = 0; i < dgv_cthd.Rows.Count-1; i++)
                 {
                     result = cthd.InsertChiTietHoaDon(txt_maDon.Text, dgv_cthd.Rows[i].Cells[0].Value.ToString(), dgv_cthd.Rows[i].Cells[2].Value.ToString(), dgv_cthd.Rows[i].Cells[3].Value.ToString());
-                    if (result == DAL.Result.SUCCESS)
-                    {
-                        ctkh.updateSoluongTru(dgv_cthd.Rows[i].Cells[0].Value.ToString(), dgv_cthd.Rows[i].Cells[2].Value.ToString());
-
-                    }
                 }
             }
             switch (result)
             {
-                case DAL.Result.SUCCESS: MessageBox.Show("Thêm thông tin mặt hàng thành công"); break;
+                case DAL.Result.SUCCESS: MessageBox.Show("Thêm hóa đơn thành công"); break;
                 case DAL.Result.EMPTY: MessageBox.Show("Chưa nhập đủ thông tin"); break;
-                case DAL.Result.FAILED: MessageBox.Show("Thêm thông tin mặt hàng thất bại"); break;
-                case DAL.Result.PRIMARY_KEY: MessageBox.Show("Mã hàng đã tồn tại"); break;
-                case DAL.Result.UNIQUE_NAME: MessageBox.Show("Tên hàng đã tồn tai"); break;
+                case DAL.Result.FAILED: MessageBox.Show("Thêm hóa đơn thất bại"); break;
             }
-
+            if (result == DAL.Result.SUCCESS)
+                return true;
+            return false;
         }
 
         private void btn_Xoa_Click(object sender, EventArgs e)
@@ -285,7 +274,8 @@ namespace QuanLyCuaHangDienMay.Views
 
         private void btn_moHDMoi_Click(object sender, EventArgs e)
         {
-
+            txt_maDon.Text = txt_tienhang.Text = txt_giamGia.Text = txt_tongcong.Text = "";
+            dgv_cthd.Enabled = false;
         }
 
         private void txt_giamGia_KeyPress(object sender, KeyPressEventArgs e)
@@ -316,5 +306,47 @@ namespace QuanLyCuaHangDienMay.Views
             }
         }
 
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gridControl2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gridControl2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gridControl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelControl1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void capNhatSLKho(string a, int b)
+        {
+            ctkh.updateSoluongMH(a, b);
+        }
+
+        private void updateSLMH()
+        {
+            for (int i = 0; i < dgv_cthd.Rows.Count - 1; i++)
+            {
+                int slhangcon = ctkh.laySoLuongHang(dgv_cthd.Rows[i].Cells[0].Value.ToString()) + int.Parse(dgv_cthd.Rows[i].Cells[2].Value.ToString());
+                ctkh.updateSoluongMH(dgv_cthd.Rows[i].Cells[0].Value.ToString(), slhangcon);
+               // ctkh.updateSoluongThem(dgv_cthd.Rows[i].Cells[0].Value.ToString(), dgv_cthd.Rows[i].Cells[2].Value.ToString());
+                if (ctkh.laySoLuongHang(dgv_cthd.Rows[i].Cells[0].Value.ToString()) == 0)
+                mh.updateTinhTrangHH(dgv_cthd.Rows[i].Cells[0].Value.ToString());
+            }
+        }
     }
 }

@@ -52,5 +52,15 @@ namespace BLL
         {
             return mathang.GetMatHang2();                                                    
         }
+
+        public Result updateTinhTrang(string ten)
+        {
+            return mathang.UpdateMatHangDaBan(ten);
+        }
+
+        public Result updateTinhTrangHH(string ten)
+        {
+            return mathang.UpdateMatHangHetHang(ten);
+        }
     }
 }

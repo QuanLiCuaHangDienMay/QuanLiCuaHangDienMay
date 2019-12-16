@@ -34,3 +34,8 @@ E:\Win\11-12\QuanLyCuaHangDienMay\DAL\bin\Debug\DAL.dll
 E:\Win\11-12\QuanLyCuaHangDienMay\DAL\bin\Debug\DAL.pdb
 E:\Win\11-12\QuanLyCuaHangDienMay\DAL\obj\Debug\DAL.dll
 E:\Win\11-12\QuanLyCuaHangDienMay\DAL\obj\Debug\DAL.pdb
+E:\baocao qin\New folder\QuanLyCuaHangDienMay\DAL\bin\Debug\DAL.dll.config
+E:\baocao qin\New folder\QuanLyCuaHangDienMay\DAL\bin\Debug\DAL.dll
+E:\baocao qin\New folder\QuanLyCuaHangDienMay\DAL\bin\Debug\DAL.pdb
+E:\baocao qin\New folder\QuanLyCuaHangDienMay\DAL\obj\Debug\DAL.dll
+E:\baocao qin\New folder\QuanLyCuaHangDienMay\DAL\obj\Debug\DAL.pdb

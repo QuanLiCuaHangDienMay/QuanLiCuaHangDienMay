@@ -101,15 +101,22 @@ namespace QuanLyCuaHangDienMay.Views
 
         private void themChiTiet(string MaHang,string tenHang,string soLuong,string donGia)
         {
-            decimal thanhtien=decimal.Parse(soLuong)*decimal.Parse(donGia);
+            try
+            {
+                decimal thanhtien = decimal.Parse(soLuong) * decimal.Parse(donGia);
 
-            DataGridViewRow row = (DataGridViewRow)dgv_cthd.Rows[0].Clone();
-            row.Cells[0].Value = MaHang;
-            row.Cells[1].Value = tenHang;
-            row.Cells[2].Value = soLuong;
-            row.Cells[3].Value = donGia;
-            row.Cells[4].Value = thanhtien;
-            dgv_cthd.Rows.Add(row); 
+                DataGridViewRow row = (DataGridViewRow)dgv_cthd.Rows[0].Clone();
+                row.Cells[0].Value = MaHang;
+                row.Cells[1].Value = tenHang;
+                row.Cells[2].Value = soLuong;
+                row.Cells[3].Value = donGia;
+                row.Cells[4].Value = thanhtien;
+                dgv_cthd.Rows.Add(row);
+            }
+            catch
+            {
+                return;
+            }
 
         }
 
@@ -150,9 +157,17 @@ namespace QuanLyCuaHangDienMay.Views
                 MessageBox.Show("Mặt hàng đã có trong giỏ");
                 return;
             }
-            themChiTiet(maMH, tenMH, sl, donGia);       
-            thanhTien += decimal.Parse(donGia) * decimal.Parse(sl);
-            txt_tienhang.Text = thanhTien.ToString();
+            try
+            {
+                themChiTiet(maMH, tenMH, sl, donGia);
+                thanhTien += decimal.Parse(donGia) * decimal.Parse(sl);
+                txt_tienhang.Text = thanhTien.ToString();
+                btn_moHDMoi.Enabled = true;
+            }
+            catch
+            {
+                return;
+            }
         }
 
         private void dgv_cthd_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -203,8 +218,15 @@ namespace QuanLyCuaHangDienMay.Views
                 MessageBox.Show("Không có hàng trong giỏ");
                 return;
             }
-            luu();
-
+            if (luu())
+            {
+                updateSLMH();
+                updateTongTien(txt_maDon.Text, txt_tienhang.Text);
+                load();
+                txt_maDon.Text = "";
+                txt_tienhang.Text = "";
+                dgv_cthd.Rows.Clear();
+            }
         }
 
         private bool kTraNullCB()
@@ -216,42 +238,41 @@ namespace QuanLyCuaHangDienMay.Views
             return false;
         }
 
-        private void luu()
+        private bool luu()
         {
             if (kTraNullCB())
             {
                 MessageBox.Show("Chưa nhập đủ thông tin");
-                return;
+                return false;
             }
+
+
             var result = pn.InsertPN(txt_maDon.Text,cb_NV.SelectedValue.ToString(),dateEdit1.Text.ToString(),txt_ggc.Text);
             switch (result)
             {
                 //case DAL.Result.SUCCESS: MessageBox.Show("Thêm thông tin mặt hàng thành công"); break;
                 case DAL.Result.EMPTY: MessageBox.Show("Chưa nhập đủ thông tin"); break;
-                case DAL.Result.FAILED: MessageBox.Show("Thêm thông tin mặt hàng thất bại"); break;
-                case DAL.Result.PRIMARY_KEY: MessageBox.Show("Mã hàng đã tồn tại"); break;
-                case DAL.Result.UNIQUE_NAME: MessageBox.Show("Tên hàng đã tồn tai"); break;
+                case DAL.Result.FAILED: MessageBox.Show("Thêm thông tin phiếu nhập thất bại"); break;
+                case DAL.Result.PRIMARY_KEY: MessageBox.Show("Mã phiếu nhập đã tồn tại"); break;
+               // case DAL.Result.UNIQUE_NAME: MessageBox.Show("Tên hàng đã tồn tai"); break;
             }
             if (result == DAL.Result.SUCCESS)
             {
                 for (int i = 0; i < dgv_cthd.Rows.Count-1; i++)
                 {
-                    result = ctpn.InsertCTHD(txt_maDon.Text, dgv_cthd.Rows[i].Cells[0].Value.ToString(),dgv_cthd.Rows[i].Cells[3].Value.ToString(), dgv_cthd.Rows[i].Cells[2].Value.ToString());
-                    if (result == DAL.Result.SUCCESS)
-                    {
-                       ctkh.updateSoluongThem(dgv_cthd.Rows[i].Cells[0].Value.ToString(), dgv_cthd.Rows[i].Cells[2].Value.ToString());
-
-                    }
+                    result = ctpn.InsertCTHD(txt_maDon.Text, dgv_cthd.Rows[i].Cells[0].Value.ToString(),dgv_cthd.Rows[i].Cells[3].Value.ToString(), dgv_cthd.Rows[i].Cells[2].Value.ToString()); 
                 }
             }
             switch (result)
             {
-                case DAL.Result.SUCCESS: MessageBox.Show("Thêm thông tin mặt hàng thành công"); break;
+                case DAL.Result.SUCCESS: MessageBox.Show("Thêm thông tin phiếu nhập thành công"); break;
                 case DAL.Result.EMPTY: MessageBox.Show("Chưa nhập đủ thông tin"); break;
-                case DAL.Result.FAILED: MessageBox.Show("Thêm thông tin mặt hàng thất bại"); break;
-                case DAL.Result.PRIMARY_KEY: MessageBox.Show("Mã hàng đã tồn tại"); break;
-                case DAL.Result.UNIQUE_NAME: MessageBox.Show("Tên hàng đã tồn tai"); break;
+                case DAL.Result.FAILED: MessageBox.Show("Thêm thông tin phiếu nhập thất bại"); break;
             }
+            if (result == DAL.Result.SUCCESS)
+                return true;
+            else
+                return false;
 
         }
 
@@ -275,9 +296,26 @@ namespace QuanLyCuaHangDienMay.Views
             
         }
 
+        private void updateSLMH()
+        {
+            for (int i = 0; i < dgv_cthd.Rows.Count - 1; i++)
+            {
+                ctkh.updateSoluongThem(dgv_cthd.Rows[i].Cells[0].Value.ToString(), dgv_cthd.Rows[i].Cells[2].Value.ToString());
+                mh.updateTinhTrang(dgv_cthd.Rows[i].Cells[0].Value.ToString());
+            }
+        }
+
+        private void updateTongTien(string maHD,string tongtien)
+        {
+            pn.UpdateTongTienHD(maHD, tongtien);
+        }
+
+
         private void btn_moHDMoi_Click(object sender, EventArgs e)
         {
-
+            txt_maDon.Text = "";
+            txt_tienhang.Text = "";
+            dgv_cthd.Rows.Clear();
         }
 
         

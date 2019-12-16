@@ -27,7 +27,6 @@ namespace DAL
                 hd.MaPN = maPN;
                 hd.MaHang = maHang;
                 hd.MaKho = "KHO001";
-
                 hd.SoLuongNhap = int.Parse(soluong);
                 hd.GiaNhap = decimal.Parse(giaNhap);
                 hd.ThanhTien = hd.SoLuongNhap*hd.GiaNhap;

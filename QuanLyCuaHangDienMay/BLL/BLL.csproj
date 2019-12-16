@@ -51,6 +51,7 @@
     <Compile Include="MatHang_BLL.cs" />
     <Compile Include="NhaCungCap_BLL.cs" />
     <Compile Include="NhanVien_BLL.cs" />
+    <Compile Include="PhieuNhap_BLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

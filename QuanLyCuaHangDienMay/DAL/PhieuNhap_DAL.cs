@@ -84,14 +84,14 @@ namespace DAL
         }
 
         //Cập nhật tổng tiền hóa đơn
-        public Result UpdateTongTienHDThem(string MaHD, string TongTienThem)
+        public Result UpdateTongTienHD(string MaHD, string TongTien)
         {
             if (checkPrimaryKeyMaHoaDon(MaHD) == true)
                 return Result.KEY_NOT_FOUND;
             try
             {
                 var hoadon = qlch.HoaDons.FirstOrDefault(hd => string.Equals(hd.MaHD, MaHD));
-                hoadon.TongTien += decimal.Parse(TongTienThem);
+                hoadon.TongTien = decimal.Parse(TongTien);
                 qlch.SubmitChanges();
                 return Result.SUCCESS;
             }

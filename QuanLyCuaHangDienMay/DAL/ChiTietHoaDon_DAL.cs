@@ -87,5 +87,6 @@ namespace DAL
             return qlch.ChiTietHoaDons.Where(mh => string.Equals(mh.MaHang, pmaMH)).ToList<ChiTietHoaDon>();
         }
     
+
     }
 }

@@ -19,6 +19,7 @@ namespace QuanLyCuaHangDienMay.Views
         MatHang_BLL mh = new MatHang_BLL();
         LoaiMatHang_BLL lmh = new LoaiMatHang_BLL();
         NhaCungCap_BLL ncc = new NhaCungCap_BLL();
+        ChiTietKho_BLL ctkh = new ChiTietKho_BLL();
 
         public frm_MatHang_ThemMatHang()
         {
@@ -101,8 +102,8 @@ namespace QuanLyCuaHangDienMay.Views
                 case DAL.Result.PRIMARY_KEY: MessageBox.Show("Mã hàng đã tồn tại"); break;
                 case DAL.Result.UNIQUE_NAME: MessageBox.Show("Tên hàng đã tồn tai"); break;
             }
-            //if (result == DAL.Result.SUCCESS)
-            //    this.Close();
+            if (result == DAL.Result.SUCCESS)
+                ctkh.InsertCTKho(txt_maHang.Text);
         }
        
         private void txt_giaNhap_KeyPress(object sender, KeyPressEventArgs e)

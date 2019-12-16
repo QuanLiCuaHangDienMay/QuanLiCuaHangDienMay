@@ -28,6 +28,13 @@ namespace BLL
              return ct.LaySoLuong(maHang, soLuong);
          }
 
+         public int laySoLuongHang(string maHang)
+         {
+             return ct.LaySoLuongHang(maHang);
+         }
+
+
+
          public Result updateSoluongTru(string mahang, string soluong)
          {
              return ct.UpdateSoLuongTru(mahang, soluong);
@@ -38,9 +45,24 @@ namespace BLL
              return ct.UpdateSoLuongThem(mahang, soluong);
          }
 
+         public Result updateSoluongThem2(string mahang, string soluong)
+         {
+             return ct.UpdateSoLuongThem2(mahang, soluong);
+         }
+
+         public Result updateSoluongMH(string mahang, int soluong)
+         {
+            return ct.UpdateSoLuongMH(mahang, soluong);
+         }
+
          public List<ChiTietKho> GetMatHang()
          {
              return ct.GetChiTietKho();
+         }
+
+         public Result InsertCTKho(string MaHang)
+         {
+             return ct.InsertCTKho(MaHang);
          }
     }
 }

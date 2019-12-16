@@ -47,3 +47,10 @@ E:\Win\11-12\QuanLyCuaHangDienMay\BLL\bin\Debug\DAL.pdb
 E:\Win\11-12\QuanLyCuaHangDienMay\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 E:\Win\11-12\QuanLyCuaHangDienMay\BLL\obj\Debug\BLL.dll
 E:\Win\11-12\QuanLyCuaHangDienMay\BLL\obj\Debug\BLL.pdb
+E:\baocao qin\New folder\QuanLyCuaHangDienMay\BLL\bin\Debug\BLL.dll
+E:\baocao qin\New folder\QuanLyCuaHangDienMay\BLL\bin\Debug\BLL.pdb
+E:\baocao qin\New folder\QuanLyCuaHangDienMay\BLL\bin\Debug\DAL.dll
+E:\baocao qin\New folder\QuanLyCuaHangDienMay\BLL\bin\Debug\DAL.pdb
+E:\baocao qin\New folder\QuanLyCuaHangDienMay\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\baocao qin\New folder\QuanLyCuaHangDienMay\BLL\obj\Debug\BLL.dll
+E:\baocao qin\New folder\QuanLyCuaHangDienMay\BLL\obj\Debug\BLL.pdb

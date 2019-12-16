@@ -17,30 +17,23 @@ namespace DAL
         }
 
         ////Thêm 
-        //public Result InsertNCC(string pMaNCC, string pTenNhaCC, string pDiaChiNCC, string pDienThoaiNCC, string pEmailNCC, string pwebsiteNCC)
-        //{
-        //    if (checkPrimaryKeyMaNhaCungCap(pMaNCC) == false)
-        //        return Result.PRIMARY_KEY;
-        //    if (checkPrimaryKeyTenNhaCungCap(pTenNhaCC) == false)
-        //        return Result.UNIQUE_NAME;
-        //    try
-        //    {
-        //        NhaCungCap ncc = new NhaCungCap();
-        //        ncc.MaNhaCC = pMaNCC;
-        //        ncc.TenNhaCC = pTenNhaCC;
-        //        ncc.DiaChiNCC = pDiaChiNCC;
-        //        ncc.DienThoaiNCC = pDienThoaiNCC;
-        //        ncc.EmailNCC = pEmailNCC;
-        //        ncc.websiteNCC = pwebsiteNCC;
-        //        qlch.NhaCungCaps.InsertOnSubmit(ncc);
-        //        qlch.SubmitChanges();
-        //        return Result.SUCCESS;
-        //    }
-        //    catch
-        //    {
-        //        return Result.FAILED;
-        //    }
-        //}
+        public Result InsertCTKho(string MaHang)
+        {
+            try
+            {
+                ChiTietKho ct = new ChiTietKho();
+                ct.MaHang = MaHang;
+                ct.MaKho = "KHO001";
+                ct.SoLuong = 0;
+                qlch.ChiTietKhos.InsertOnSubmit(ct);
+                qlch.SubmitChanges();
+                return Result.SUCCESS;
+            }
+            catch
+            {
+                return Result.FAILED;
+            }
+        }
 
         ////Xóa 
         //public Result DeleteNCC(string pMaNCC)
@@ -67,7 +60,26 @@ namespace DAL
             try
             {
                 var ctkh = qlch.ChiTietKhos.FirstOrDefault(kh => kh.MaKho == MaKho && kh.MaHang == MaHang);
-                ctkh.SoLuong += int.Parse(SoLuong);
+                int? slkho=ctkh.SoLuong/2+int.Parse(SoLuong);
+                ctkh.SoLuong= slkho;
+                qlch.SubmitChanges();
+                return Result.SUCCESS;
+            }
+            catch
+            {
+                return Result.FAILED;
+            }
+        }
+
+        public Result UpdateSoLuongThem2(string MaHang, string SoLuong)
+        {
+            if (checkPrimaryKeyMaChiTietKho(MaKho,MaHang) == true)
+                return Result.KEY_NOT_FOUND;
+            try
+            {
+                var ctkh = qlch.ChiTietKhos.FirstOrDefault(kh => kh.MaKho == MaKho && kh.MaHang == MaHang);
+                int? slkho=ctkh.SoLuong-int.Parse(SoLuong);
+                ctkh.SoLuong= slkho;
                 qlch.SubmitChanges();
                 return Result.SUCCESS;
             }
@@ -80,12 +92,19 @@ namespace DAL
         //Kiem tra so luonh
         public Result KiemTraSoLuong(string MaHang, string SoLuong)
         {
-            if (checkPrimaryKeyMaChiTietKho(MaKho, MaHang) == true)
-                return Result.KEY_NOT_FOUND;
+            try
+            {
+                if (checkPrimaryKeyMaChiTietKho(MaKho, MaHang) == true)
+                    return Result.KEY_NOT_FOUND;
                 var ctkh = qlch.ChiTietKhos.FirstOrDefault(kh => kh.MaKho == MaKho && kh.MaHang == MaHang);
                 if (ctkh.SoLuong < int.Parse(SoLuong))
                     return Result.OUT_OF_STOCK;
                 return Result.FAILED;
+            }
+            catch
+            {
+                return Result.EMPTY;
+            }
         }
 
         public int LaySoLuong(string MaHang, string SoLuong)
@@ -94,6 +113,14 @@ namespace DAL
             if (ctkh.SoLuong < int.Parse(SoLuong))
                 return int.Parse(ctkh.SoLuong.ToString());
             return 0;
+        }
+
+
+
+        public int LaySoLuongHang(string MaHang)
+        {
+            var ctkh = qlch.ChiTietKhos.FirstOrDefault(kh => kh.MaKho == MaKho && kh.MaHang == MaHang);
+            return int.Parse(ctkh.SoLuong.ToString());
         }
 
         //Cập nhật 
@@ -125,6 +152,23 @@ namespace DAL
         {
             return qlch.ChiTietKhos.Where(kh => kh.MaKho == "KHO001" && kh.MaHang == MaHang).ToList<ChiTietKho>();    
         }
-        
+
+        public Result UpdateSoLuongMH(string MaHang, int SoLuong)
+        {
+            if (checkPrimaryKeyMaChiTietKho(MaKho, MaHang) == true)
+                return Result.KEY_NOT_FOUND;
+            try
+            {
+                var ctkh = qlch.ChiTietKhos.FirstOrDefault(kh => kh.MaKho == MaKho && kh.MaHang == MaHang);
+                ctkh.SoLuong = SoLuong;
+                qlch.SubmitChanges();
+                return Result.SUCCESS;
+            }
+            catch
+            {
+                return Result.FAILED;
+            }
+        }
+
     }
 }

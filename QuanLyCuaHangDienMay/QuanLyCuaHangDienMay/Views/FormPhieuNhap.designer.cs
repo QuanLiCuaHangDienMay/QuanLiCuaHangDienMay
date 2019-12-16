@@ -40,7 +40,6 @@
             this.SoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DonGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txt_tongcong = new DevExpress.XtraEditors.TextEdit();
             this.txt_tienhang = new DevExpress.XtraEditors.TextEdit();
             this.btn_thanhToan = new System.Windows.Forms.Button();
             this.cb_NV = new System.Windows.Forms.ComboBox();
@@ -52,7 +51,6 @@
             this.emptySpaceItem2 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem3 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -101,7 +99,6 @@
             this.layoutControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_ggc.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_cthd)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_tongcong.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_tienhang.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_maDon.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).BeginInit();
@@ -110,7 +107,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
@@ -170,7 +166,6 @@
             this.layoutControl3.Controls.Add(this.txt_ggc);
             this.layoutControl3.Controls.Add(this.dateEdit1);
             this.layoutControl3.Controls.Add(this.dgv_cthd);
-            this.layoutControl3.Controls.Add(this.txt_tongcong);
             this.layoutControl3.Controls.Add(this.txt_tienhang);
             this.layoutControl3.Controls.Add(this.btn_thanhToan);
             this.layoutControl3.Controls.Add(this.cb_NV);
@@ -252,18 +247,10 @@
             this.ThanhTien.Name = "ThanhTien";
             this.ThanhTien.ReadOnly = true;
             // 
-            // txt_tongcong
-            // 
-            this.txt_tongcong.Location = new System.Drawing.Point(429, 635);
-            this.txt_tongcong.Name = "txt_tongcong";
-            this.txt_tongcong.Size = new System.Drawing.Size(205, 26);
-            this.txt_tongcong.StyleController = this.layoutControl3;
-            this.txt_tongcong.TabIndex = 6;
-            // 
             // txt_tienhang
             // 
             this.txt_tienhang.Enabled = false;
-            this.txt_tienhang.Location = new System.Drawing.Point(429, 603);
+            this.txt_tienhang.Location = new System.Drawing.Point(429, 621);
             this.txt_tienhang.Name = "txt_tienhang";
             this.txt_tienhang.Size = new System.Drawing.Size(205, 26);
             this.txt_tienhang.StyleController = this.layoutControl3;
@@ -271,9 +258,9 @@
             // 
             // btn_thanhToan
             // 
-            this.btn_thanhToan.Location = new System.Drawing.Point(18, 603);
+            this.btn_thanhToan.Location = new System.Drawing.Point(18, 621);
             this.btn_thanhToan.Name = "btn_thanhToan";
-            this.btn_thanhToan.Size = new System.Drawing.Size(187, 48);
+            this.btn_thanhToan.Size = new System.Drawing.Size(187, 30);
             this.btn_thanhToan.TabIndex = 8;
             this.btn_thanhToan.Text = "Thanh toán";
             this.btn_thanhToan.UseVisualStyleBackColor = true;
@@ -315,7 +302,6 @@
             this.emptySpaceItem2,
             this.layoutControlItem5,
             this.layoutControlItem7,
-            this.layoutControlItem9,
             this.emptySpaceItem1,
             this.emptySpaceItem3,
             this.layoutControlItem12,
@@ -358,37 +344,27 @@
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.btn_thanhToan;
-            this.layoutControlItem5.Location = new System.Drawing.Point(0, 585);
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 603);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(193, 54);
+            this.layoutControlItem5.Size = new System.Drawing.Size(193, 36);
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem5.TextVisible = false;
             // 
             // layoutControlItem7
             // 
             this.layoutControlItem7.Control = this.txt_tienhang;
-            this.layoutControlItem7.Location = new System.Drawing.Point(320, 585);
+            this.layoutControlItem7.Location = new System.Drawing.Point(320, 603);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(302, 32);
+            this.layoutControlItem7.Size = new System.Drawing.Size(302, 46);
             this.layoutControlItem7.Text = "Tiền hàng";
             this.layoutControlItem7.TextSize = new System.Drawing.Size(86, 19);
-            // 
-            // layoutControlItem9
-            // 
-            this.layoutControlItem9.Control = this.txt_tongcong;
-            this.layoutControlItem9.Enabled = false;
-            this.layoutControlItem9.Location = new System.Drawing.Point(320, 617);
-            this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(302, 32);
-            this.layoutControlItem9.Text = "Tổng cộng";
-            this.layoutControlItem9.TextSize = new System.Drawing.Size(86, 19);
             // 
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(193, 585);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(193, 603);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(127, 64);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(127, 46);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem3
@@ -414,7 +390,7 @@
             this.emptySpaceItem5.AllowHotTrack = false;
             this.emptySpaceItem5.Location = new System.Drawing.Point(0, 556);
             this.emptySpaceItem5.Name = "emptySpaceItem5";
-            this.emptySpaceItem5.Size = new System.Drawing.Size(622, 29);
+            this.emptySpaceItem5.Size = new System.Drawing.Size(622, 47);
             this.emptySpaceItem5.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem3
@@ -721,7 +697,6 @@
             this.layoutControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txt_ggc.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_cthd)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_tongcong.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_tienhang.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_maDon.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).EndInit();
@@ -730,7 +705,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
@@ -756,7 +730,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.PanelControl panelControl2;
-        private DevExpress.XtraEditors.TextEdit txt_tongcong;
         private DevExpress.XtraEditors.TextEdit txt_tienhang;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btn_moDatHang;
@@ -788,7 +761,6 @@
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem5;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem7;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem9;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
         private DevExpress.XtraGrid.GridControl gc_mh;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView2;

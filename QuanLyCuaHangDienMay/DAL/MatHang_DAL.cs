@@ -159,5 +159,40 @@ namespace DAL
             return qlch.MatHangs.Where(mh => string.Equals(mh.TenMatHang, pTenMH)).ToList<MatHang>();
         }
 
+        public Result UpdateMatHangDaBan(string pMaHang)
+        {
+            if (checkPrimaryKeyMatHang(pMaHang) == true)
+                return Result.KEY_NOT_FOUND;
+            try
+            {
+                var mh = qlch.MatHangs.FirstOrDefault(matHang => string.Equals(matHang.MaHang, pMaHang));
+                mh.TinhTrangHang = "Đã bán";
+                qlch.SubmitChanges();
+                return Result.SUCCESS;
+            }
+            catch
+            {
+                return Result.FAILED;
+            }
+        }
+
+
+        public Result UpdateMatHangHetHang(string pMaHang)
+        {
+            if (checkPrimaryKeyMatHang(pMaHang) == true)
+                return Result.KEY_NOT_FOUND;
+            try
+            {
+                var mh = qlch.MatHangs.FirstOrDefault(matHang => string.Equals(matHang.MaHang, pMaHang));
+                mh.TinhTrangHang = "Hết hàng";
+                qlch.SubmitChanges();
+                return Result.SUCCESS;
+            }
+            catch
+            {
+                return Result.FAILED;
+            }
+        }
+
     }
 }
