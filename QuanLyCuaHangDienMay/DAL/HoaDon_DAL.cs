@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DAL.DTO;
 
 namespace DAL
 {
@@ -15,6 +16,40 @@ namespace DAL
         {
             return (from hd in qlch.HoaDons select hd).ToList<HoaDon>();
         }
+
+        public List<HoaDon_DTO> GetHD()
+        {
+            var temp = (from hd in qlch.HoaDons
+                        join nv in qlch.NhanViens on hd.MaNV equals nv.MaNV
+                        join kh in qlch.KhachHangs on hd.MaKH equals kh.MaKH
+                        select new
+                        {
+                            MaHD = hd.MaHD,
+                            MaKH = hd.MaKH,
+                            TenKH = kh.TenKH,
+                            MaNV = nv.MaNV,
+                            TenNV = nv.TenNV,
+                            NgayLapHD = hd.NgayLapHD,
+                            GiamGiaTrucTiep = hd.GiamGiaTrucTiep,
+                            TongTien = hd.TongTien,
+                        }).AsEnumerable()
+                      .Select(x => new HoaDon_DTO
+                      {
+                          MaHD =x.MaHD,
+                          MaKH = x.MaKH,
+                          TenKH = x.TenKH,
+                          MaNV = x.MaNV,
+                          TenNV = x.TenNV,
+                          NgayLapHD =x.NgayLapHD,
+                          GiamGiaTrucTiep = x.GiamGiaTrucTiep,
+                          TongTien = x.TongTien,
+                      }).ToList<HoaDon_DTO>();
+            return temp;
+        }
+
+
+
+
 
         //Thêm loại hóa đơn
         public Result InsertHD(string MaHD, string MaKH, string MaNV, string NgayLapHD, string GiamGiaTrucTiep)

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL;
-
+using DAL.DTO;
 namespace BLL
 {
     public class ChiTietKho_BLL
@@ -22,6 +22,11 @@ namespace BLL
         {
             return ct.GetChiTietKhoByCondition(maHang);                                                    
         }
+
+         public List<Kho_DTO> getctkho()
+         {
+             return ct.Getctkho();
+         }
 
          public int laySoLuong(string maHang, string soLuong)
          {
@@ -53,6 +58,11 @@ namespace BLL
          public Result updateSoluongMH(string mahang, int soluong)
          {
             return ct.UpdateSoLuongMH(mahang, soluong);
+         }
+
+         public Result updateSoluonCong(string mahang, int soluong)
+         {
+             return ct.UpdateSoLuongCong(mahang, soluong);
          }
 
          public List<ChiTietKho> GetMatHang()

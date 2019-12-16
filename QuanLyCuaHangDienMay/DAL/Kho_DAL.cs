@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace DAL
 {
     public class Kho_DAL : Base_DAL
@@ -14,6 +15,6 @@ namespace DAL
             return (from kho in qlch.Khos select kho).ToList<Kho>();
         }
 
-
+       
     }
 }

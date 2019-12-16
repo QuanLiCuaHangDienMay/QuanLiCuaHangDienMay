@@ -28,7 +28,7 @@ namespace QuanLyCuaHangDienMay.Views
 
         private void refress()          
         {
-            gc_MatHang.DataSource = ctk.GetMatHang();    
+            gc_MatHang.DataSource = ctk.getctkho();    
         }
 
         private void btn_del_ItemClick(object sender, ItemClickEventArgs e)

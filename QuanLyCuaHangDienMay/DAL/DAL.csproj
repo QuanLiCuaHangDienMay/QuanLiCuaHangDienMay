@@ -45,6 +45,8 @@
     <Compile Include="ChiTietHoaDon_DAL.cs" />
     <Compile Include="ChiTietKho_DAL.cs" />
     <Compile Include="ChiTietPhieuNhap_DAL.cs" />
+    <Compile Include="DTO\HoaDon_DTO.cs" />
+    <Compile Include="DTO\Kho_DTO.cs" />
     <Compile Include="DTO\MatHang_DTO.cs" />
     <Compile Include="HoaDon_DAL.cs" />
     <Compile Include="KhachHang_DAL.cs" />

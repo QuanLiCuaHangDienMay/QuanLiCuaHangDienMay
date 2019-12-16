@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DAL.DTO;
 
 namespace DAL
 {
@@ -16,7 +17,37 @@ namespace DAL
             return (from kh in qlch.ChiTietKhos select kh).ToList<ChiTietKho>();
         }
 
+        public List<Kho_DTO> Getctkho()
+        {
+            var temp = (from ctk in qlch.ChiTietKhos
+                        join k in qlch.Khos on ctk.MaKho equals k.MaKho
+                        join mh in qlch.MatHangs on ctk.MaHang equals mh.MaHang
+                        select new
+                        {
+                            MaKho = ctk.MaKho,
+                            TenKho = k.TenKho,
+                            MaHang = ctk.MaHang,
+                            TenMatHang = mh.TenMatHang,
+                            SoLuong = ctk.SoLuong,
+                        }).AsEnumerable()
+                      .Select(x => new Kho_DTO
+                      {
+
+                          MaKho = x.MaKho,
+                          TenKho = x.TenKho,
+                          MaHang = x.MaHang,
+                          TenMatHang = x.TenMatHang,
+                          SoLuong = x.SoLuong,
+                      }).ToList<Kho_DTO>();
+            return temp;
+        }
+
+
+
         ////Thêm 
+
+
+
         public Result InsertCTKho(string MaHang)
         {
             try
@@ -132,6 +163,23 @@ namespace DAL
             {
                 var ctkh = qlch.ChiTietKhos.FirstOrDefault(kh => kh.MaKho == "KHO001" && kh.MaHang == MaHang);
                 ctkh.SoLuong -= int.Parse(SoLuong);
+                qlch.SubmitChanges();
+                return Result.SUCCESS;
+            }
+            catch
+            {
+                return Result.FAILED;
+            }
+        }
+
+        public Result UpdateSoLuongCong(string MaHang, int SoLuong)
+        {
+            if (checkPrimaryKeyMaChiTietKho(MaKho, MaHang) == true)
+                return Result.KEY_NOT_FOUND;
+            try
+            {
+                var ctkh = qlch.ChiTietKhos.FirstOrDefault(kh => kh.MaKho == "KHO001" && kh.MaHang == MaHang);
+                ctkh.SoLuong += SoLuong;
                 qlch.SubmitChanges();
                 return Result.SUCCESS;
             }

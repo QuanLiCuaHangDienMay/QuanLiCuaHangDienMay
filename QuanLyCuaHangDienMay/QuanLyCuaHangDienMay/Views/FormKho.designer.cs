@@ -42,6 +42,11 @@
             this.repositoryItemTextEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
             this.gc_MatHang = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.MaKho = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTextEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
@@ -162,8 +167,50 @@
             // 
             // gridView1
             // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.MaKho,
+            this.gridColumn1,
+            this.gridColumn2,
+            this.gridColumn3,
+            this.gridColumn5});
             this.gridView1.GridControl = this.gc_MatHang;
             this.gridView1.Name = "gridView1";
+            // 
+            // MaKho
+            // 
+            this.MaKho.Caption = "Mã kho";
+            this.MaKho.FieldName = "MaKho";
+            this.MaKho.Name = "MaKho";
+            // 
+            // gridColumn1
+            // 
+            this.gridColumn1.Caption = "Tên kho";
+            this.gridColumn1.FieldName = "TenKho";
+            this.gridColumn1.Name = "gridColumn1";
+            // 
+            // gridColumn2
+            // 
+            this.gridColumn2.Caption = "Mã hàng";
+            this.gridColumn2.FieldName = "MaHang";
+            this.gridColumn2.Name = "gridColumn2";
+            this.gridColumn2.Visible = true;
+            this.gridColumn2.VisibleIndex = 0;
+            // 
+            // gridColumn3
+            // 
+            this.gridColumn3.Caption = "Tên hàng";
+            this.gridColumn3.FieldName = "TenMatHang";
+            this.gridColumn3.Name = "gridColumn3";
+            this.gridColumn3.Visible = true;
+            this.gridColumn3.VisibleIndex = 1;
+            // 
+            // gridColumn5
+            // 
+            this.gridColumn5.Caption = "Số lượng";
+            this.gridColumn5.FieldName = "SoLuong";
+            this.gridColumn5.Name = "gridColumn5";
+            this.gridColumn5.Visible = true;
+            this.gridColumn5.VisibleIndex = 3;
             // 
             // frm_Kho
             // 
@@ -177,7 +224,7 @@
             this.Controls.Add(this.barDockControl1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frm_Kho";
-            this.Text = "Danh mục mặt hàng";
+            this.Text = "Hàng trong kho";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frm_MatHang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).EndInit();
@@ -206,5 +253,10 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemTextEdit repositoryItemTextEdit2;
         private DevExpress.XtraGrid.GridControl gc_MatHang;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Columns.GridColumn MaKho;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
     }
 }

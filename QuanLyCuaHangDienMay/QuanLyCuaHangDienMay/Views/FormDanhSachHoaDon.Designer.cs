@@ -41,25 +41,42 @@
             this.repositoryItemTextEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
             this.repositoryItemButtonEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.repositoryItemTextEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gc_MatHang = new DevExpress.XtraGrid.GridControl();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControl2 = new DevExpress.XtraLayout.LayoutControl();
+            this.dgv_cthd2 = new System.Windows.Forms.DataGridView();
+            this.dgv_hoaDon = new System.Windows.Forms.DataGridView();
+            this.MaHD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayLapHD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GiamGiaTrucTiep = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TongTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.dgv_cthd = new DevExpress.XtraLayout.LayoutControlItem();
+            this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
+            this.MaHdct = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DonGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTextEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTextEdit2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gc_MatHang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).BeginInit();
             this.layoutControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_cthd2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_hoaDon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_cthd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
             this.SuspendLayout();
             // 
             // barManager2
@@ -102,6 +119,7 @@
             this.btn_del.ImageOptions.Image = global::QuanLyCuaHangDienMay.Properties.Resources.removepivotfield_32x32;
             this.btn_del.ImageOptions.LargeImageIndex = -5;
             this.btn_del.Name = "btn_del";
+            this.btn_del.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_del_ItemClick);
             // 
             // btn_exit
             // 
@@ -170,23 +188,6 @@
             this.repositoryItemTextEdit2.AutoHeight = false;
             this.repositoryItemTextEdit2.Name = "repositoryItemTextEdit2";
             // 
-            // gridView1
-            // 
-            this.gridView1.GridControl = this.gc_MatHang;
-            this.gridView1.Name = "gridView1";
-            // 
-            // gc_MatHang
-            // 
-            this.gc_MatHang.Location = new System.Drawing.Point(18, 18);
-            this.gc_MatHang.MainView = this.gridView1;
-            this.gc_MatHang.MenuManager = this.barManager2;
-            this.gc_MatHang.Name = "gc_MatHang";
-            this.gc_MatHang.Size = new System.Drawing.Size(1334, 652);
-            this.gc_MatHang.TabIndex = 20;
-            this.gc_MatHang.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
-            this.gc_MatHang.Click += new System.EventHandler(this.gc_MatHang_Click);
-            // 
             // layoutControl1
             // 
             this.layoutControl1.Location = new System.Drawing.Point(768, 25);
@@ -208,35 +209,174 @@
             // 
             // layoutControl2
             // 
-            this.layoutControl2.Controls.Add(this.gc_MatHang);
+            this.layoutControl2.Controls.Add(this.dgv_cthd2);
+            this.layoutControl2.Controls.Add(this.dgv_hoaDon);
             this.layoutControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl2.Location = new System.Drawing.Point(0, 60);
             this.layoutControl2.Name = "layoutControl2";
+            this.layoutControl2.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(31, 330, 675, 600);
             this.layoutControl2.Root = this.layoutControlGroup2;
             this.layoutControl2.Size = new System.Drawing.Size(1370, 688);
             this.layoutControl2.TabIndex = 26;
             this.layoutControl2.Text = "layoutControl2";
+            // 
+            // dgv_cthd2
+            // 
+            this.dgv_cthd2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv_cthd2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_cthd2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MaHdct,
+            this.MaHang,
+            this.SoLuong,
+            this.DonGia,
+            this.ThanhTien});
+            this.dgv_cthd2.Location = new System.Drawing.Point(715, 42);
+            this.dgv_cthd2.Name = "dgv_cthd2";
+            this.dgv_cthd2.RowTemplate.Height = 28;
+            this.dgv_cthd2.Size = new System.Drawing.Size(637, 628);
+            this.dgv_cthd2.TabIndex = 5;
+            // 
+            // dgv_hoaDon
+            // 
+            this.dgv_hoaDon.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv_hoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_hoaDon.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MaHD,
+            this.TenNV,
+            this.TenKH,
+            this.MaKH,
+            this.MaNV,
+            this.NgayLapHD,
+            this.GiamGiaTrucTiep,
+            this.TongTien});
+            this.dgv_hoaDon.Location = new System.Drawing.Point(18, 42);
+            this.dgv_hoaDon.Name = "dgv_hoaDon";
+            this.dgv_hoaDon.RowTemplate.Height = 28;
+            this.dgv_hoaDon.Size = new System.Drawing.Size(635, 628);
+            this.dgv_hoaDon.TabIndex = 4;
+            this.dgv_hoaDon.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_hoaDon_CellContentClick);
+            // 
+            // MaHD
+            // 
+            this.MaHD.DataPropertyName = "MaHD";
+            this.MaHD.HeaderText = "Mã hóa đơn";
+            this.MaHD.Name = "MaHD";
+            // 
+            // TenNV
+            // 
+            this.TenNV.HeaderText = "TenNV";
+            this.TenNV.Name = "TenNV";
+            this.TenNV.Visible = false;
+            // 
+            // TenKH
+            // 
+            this.TenKH.HeaderText = "TenKH";
+            this.TenKH.Name = "TenKH";
+            this.TenKH.Visible = false;
+            // 
+            // MaKH
+            // 
+            this.MaKH.DataPropertyName = "MaKH";
+            this.MaKH.HeaderText = "MaKH";
+            this.MaKH.Name = "MaKH";
+            this.MaKH.Visible = false;
+            // 
+            // MaNV
+            // 
+            this.MaNV.DataPropertyName = "MaNV";
+            this.MaNV.HeaderText = "MaNV";
+            this.MaNV.Name = "MaNV";
+            this.MaNV.Visible = false;
+            // 
+            // NgayLapHD
+            // 
+            this.NgayLapHD.DataPropertyName = "NgayLapHD";
+            this.NgayLapHD.HeaderText = "Ngày lập hóa đơn";
+            this.NgayLapHD.Name = "NgayLapHD";
+            // 
+            // GiamGiaTrucTiep
+            // 
+            this.GiamGiaTrucTiep.DataPropertyName = "GiamGiaTrucTiep";
+            this.GiamGiaTrucTiep.HeaderText = "Giảm giá trực tiếp";
+            this.GiamGiaTrucTiep.Name = "GiamGiaTrucTiep";
+            // 
+            // TongTien
+            // 
+            this.TongTien.DataPropertyName = "TongTien";
+            this.TongTien.HeaderText = "Tổng tiền";
+            this.TongTien.Name = "TongTien";
             // 
             // layoutControlGroup2
             // 
             this.layoutControlGroup2.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
             this.layoutControlGroup2.GroupBordersVisible = false;
             this.layoutControlGroup2.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.layoutControlItem1});
+            this.layoutControlItem1,
+            this.dgv_cthd,
+            this.emptySpaceItem1});
             this.layoutControlGroup2.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlGroup2.Name = "layoutControlGroup2";
+            this.layoutControlGroup2.Name = "Root";
             this.layoutControlGroup2.OptionsItemText.TextToControlDistance = 5;
             this.layoutControlGroup2.Size = new System.Drawing.Size(1370, 688);
             this.layoutControlGroup2.TextVisible = false;
             // 
             // layoutControlItem1
             // 
-            this.layoutControlItem1.Control = this.gc_MatHang;
+            this.layoutControlItem1.Control = this.dgv_hoaDon;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(1340, 658);
-            this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem1.TextVisible = false;
+            this.layoutControlItem1.Size = new System.Drawing.Size(641, 658);
+            this.layoutControlItem1.Text = "Danh sách hóa đơn";
+            this.layoutControlItem1.TextLocation = DevExpress.Utils.Locations.Top;
+            this.layoutControlItem1.TextSize = new System.Drawing.Size(136, 19);
+            // 
+            // dgv_cthd
+            // 
+            this.dgv_cthd.Control = this.dgv_cthd2;
+            this.dgv_cthd.Location = new System.Drawing.Point(697, 0);
+            this.dgv_cthd.Name = "dgv_cthd";
+            this.dgv_cthd.Size = new System.Drawing.Size(643, 658);
+            this.dgv_cthd.Text = "Chi tiết hóa đơn";
+            this.dgv_cthd.TextLocation = DevExpress.Utils.Locations.Top;
+            this.dgv_cthd.TextSize = new System.Drawing.Size(136, 19);
+            // 
+            // emptySpaceItem1
+            // 
+            this.emptySpaceItem1.AllowHotTrack = false;
+            this.emptySpaceItem1.Location = new System.Drawing.Point(641, 0);
+            this.emptySpaceItem1.Name = "emptySpaceItem1";
+            this.emptySpaceItem1.Size = new System.Drawing.Size(56, 658);
+            this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
+            // 
+            // MaHdct
+            // 
+            this.MaHdct.DataPropertyName = "MaHD";
+            this.MaHdct.HeaderText = "Mã hóa đơn";
+            this.MaHdct.Name = "MaHdct";
+            // 
+            // MaHang
+            // 
+            this.MaHang.DataPropertyName = "MaHang";
+            this.MaHang.HeaderText = "Mã hàng";
+            this.MaHang.Name = "MaHang";
+            // 
+            // SoLuong
+            // 
+            this.SoLuong.DataPropertyName = "SoLuong";
+            this.SoLuong.HeaderText = "Số lượng";
+            this.SoLuong.Name = "SoLuong";
+            // 
+            // DonGia
+            // 
+            this.DonGia.DataPropertyName = "DonGia";
+            this.DonGia.HeaderText = "Đơn giá";
+            this.DonGia.Name = "DonGia";
+            // 
+            // ThanhTien
+            // 
+            this.ThanhTien.DataPropertyName = "ThanhTien";
+            this.ThanhTien.HeaderText = "Thành tiền";
+            this.ThanhTien.Name = "ThanhTien";
             // 
             // frm_danhSachHoaDon
             // 
@@ -251,21 +391,23 @@
             this.Controls.Add(this.barDockControl1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frm_danhSachHoaDon";
-            this.Text = "Danh mục mặt hàng";
+            this.Text = "Danh mục hóa đơn";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frm_MatHang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTextEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTextEdit2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gc_MatHang)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).EndInit();
             this.layoutControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_cthd2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_hoaDon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_cthd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -286,11 +428,26 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit1;
         private DevExpress.XtraEditors.Repository.RepositoryItemTextEdit repositoryItemTextEdit2;
         private DevExpress.XtraLayout.LayoutControl layoutControl2;
-        private DevExpress.XtraGrid.GridControl gc_MatHang;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup2;
         private DevExpress.XtraLayout.LayoutControl layoutControl1;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup1;
+        private System.Windows.Forms.DataGridView dgv_cthd2;
+        private System.Windows.Forms.DataGridView dgv_hoaDon;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
+        private DevExpress.XtraLayout.LayoutControlItem dgv_cthd;
+        private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaHD;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenNV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenKH;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaKH;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaNV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgayLapHD;
+        private System.Windows.Forms.DataGridViewTextBoxColumn GiamGiaTrucTiep;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TongTien;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaHdct;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaHang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SoLuong;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DonGia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ThanhTien;
     }
 }

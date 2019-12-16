@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL;
+using DAL.DTO;
 
 namespace BLL
 {
@@ -14,6 +15,11 @@ namespace BLL
         public List<HoaDon> GetHoaDon()
         {
             return hd.GetHoaDon();
+        }
+
+        public List<HoaDon_DTO> GetHD()
+        {
+            return hd.GetHD();
         }
 
         public Result InsertHoaDon(string MaHD, string MaKH, string MaNV, string NgayLapHD, string GiamGiaTrucTiep)

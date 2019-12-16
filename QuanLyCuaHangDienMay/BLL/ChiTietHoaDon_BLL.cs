@@ -16,6 +16,11 @@ namespace BLL
             return cthd.GetChiTietHoaDon();
         }
 
+        public List<ChiTietHoaDon> getcthd(string mahd)
+        {
+            return cthd.getcthd(mahd);
+        }
+
         public Result InsertChiTietHoaDon(string MaHD, string MaHang, string SoLuong, string DonGia)
         {
             if (string.IsNullOrEmpty(MaHD) || string.IsNullOrEmpty(MaHang))
@@ -34,6 +39,8 @@ namespace BLL
                 return Result.EMPTY;
             return cthd.UpdateCTHD(MaHD, MaHang, SoLuong, DonGia, ThanhTien);
         }
+
+
     
     }
 }

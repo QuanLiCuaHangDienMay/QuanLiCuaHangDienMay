@@ -82,6 +82,11 @@ namespace DAL
             return qlch.ChiTietHoaDons.FirstOrDefault(cthd => cthd.MaHD==pMaHD&&cthd.MaHang==pMaHang)==null;
         }
 
+        public List<ChiTietHoaDon> getcthd(string pMaHD)
+        {
+            return qlch.ChiTietHoaDons.Where(mh => string.Equals(mh.MaHD, pMaHD)).ToList<ChiTietHoaDon>();
+        }
+
         public List<ChiTietHoaDon> GetMatHangByCondition(string pmaMH)
         {
             return qlch.ChiTietHoaDons.Where(mh => string.Equals(mh.MaHang, pmaMH)).ToList<ChiTietHoaDon>();
